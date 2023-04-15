@@ -1,0 +1,13 @@
+header {
+    height: 6.5%;
+}
+
+.logo {
+    font-family: cursive;
+    font-size: 2em;
+}
+
+.logo span {
+    padding-left: 4px;
+}
+

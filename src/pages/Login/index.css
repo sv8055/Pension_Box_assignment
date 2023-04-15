@@ -1,0 +1,66 @@
+.container {
+    max-width: 400px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--theme-background__white);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: var(--theme-primary-font-size);
+    line-height: var(--theme-primary-line-height);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]:invalid,
+  input[type="email"]:invalid,
+  input[type="password"]:invalid {
+    border-color: var(--theme-status-cancelled-font-color);
+  }
+  
+  .error-message {
+    color: var(--theme-status-cancelled-font-color);
+    font-size: var(--theme-septenary-font-size);
+    font-weight: var(--theme-primary-font-weight);
+    line-height: var(--theme-senary-line-height);
+  }
+
+  button {
+    background-color: #f5843a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:active {
+    background-color: #0062cc;
+  }
+  
+  button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  @media screen and (max-width: 480px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+
+  

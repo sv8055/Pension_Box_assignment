@@ -1,0 +1,30 @@
+{
+    "users": [
+      {
+        "username": "Aman",
+        "email": "Aman@abc.com",
+        "password": "amanabc"
+      },
+      {
+        "username": "Rita",
+        "email": "Rita@def.com",
+        "password": "ritadef"
+      },
+      {
+        "username": "Anjali",
+        "email": "Anjali@ghi.com",
+        "password": "anjalighi"
+      },
+      {
+        "username": "Ravi",
+        "email": "Ravi@jkl.com",  
+        "password": "ravijkl"
+      },
+      {
+        "username": "Shakti ",
+        "email": "Shakti@verma.com",  
+        "password": "secretart"
+      }
+    ]
+  }
+  

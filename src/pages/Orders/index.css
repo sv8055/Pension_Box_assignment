@@ -1,0 +1,55 @@
+  .orders-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .orders-page h1 {
+    font-size: var(--theme-senary-font-size);
+    line-height: var(--theme-quinary-line-height);
+    font-weight: var( --theme-primary-font-weight);
+
+    color: var(--theme-font-color__primary);
+  }
+  
+  .order-container {
+    padding: 20px;
+    background-color: var( --theme-background__white);
+    border-radius: 5px;
+    box-shadow: var(--theme-box-shadow);
+  }
+
+  /* Order Status */
+  .order__status--shipped,
+  .order__status--pending,
+  .order__status--cancelled {
+    font-size: var(--theme-septenary-font-size);
+    line-height: var(--theme-senary-line-height);
+    font-weight: var( --theme-primary-font-weight);
+    border-radius: 8px;
+  }
+  .order__status--shipped {
+    color: var(--theme-status-shipped-font-color);
+    background-color: var(--theme-status-shipped-background-color);
+  }
+  
+  .order__status--pending {
+    color: var(--theme-status-pending-font-color);
+    background-color: var(--theme-status-pending-background-color);
+  }
+  .order__status--cancelled {
+    color: var(--theme-status-cancelled-font-color);
+    background-color: var(--theme-status-cancelled-background-color);
+  }
+
+  .add-order-btn:hover {
+    background-color: #0062cc;
+  }
+  
+  .add-order-btn[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+
+  
